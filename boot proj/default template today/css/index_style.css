@@ -1,0 +1,50 @@
+
+
+body
+{
+	font-family: 'segoe ui light';
+}
+.parent
+{
+	height: 400px;
+	background-color: #09c;
+
+}
+.parent .item 
+{
+	height: 100px;
+	background-color: tomato;
+	width: 22%;
+}
+#options-container
+{
+    position: fixed;
+    top: 100px;
+    left: 0px;
+    z-index: 99999;
+}
+#options-box
+{
+    background-color: #ccc;
+    float: left;
+    border: solid 3px teal;
+    padding: 10px;
+    position: relative;
+}
+
+#options-container ul li 
+{
+    width: 30px;
+    height: 30px;
+    background-color: orange;
+    display: inline-block;
+    cursor: pointer;
+}
+#options-container i
+{
+    float: left;
+    padding: 10px;
+    background-color: teal;
+    color: #fff;
+    cursor: pointer;
+}

@@ -1,0 +1,198 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.clr{
+    clear: both;
+}
+body{
+    font-family: 'segoe ui light';
+}
+p{
+    color: gray;
+}
+/*home*/
+span{
+    
+    font-size: 20px;
+    color: #fff;
+}
+span:hover{
+    color: gray;    
+}
+nav {
+    background-color: black;
+    padding: 10px;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+ }
+nav a{
+    text-decoration: none;
+    color: gray;
+}
+.menu{
+    float: right;
+    
+}
+.menu-right{
+    color: #fff;
+    margin-right: 15px;
+}
+.back-ground{
+    background-image: url(imges/slide01.jpg);
+    height: 620px;
+    background-size: 100% 100%;
+ padding: 1px;   
+}
+.caption {
+      text-align: center;
+    padding: 50px;
+
+}
+.caption  p{
+     padding-top:  180px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    color: gray;
+}
+ .hrz{
+    background: gray;
+    width: 30%;
+    height: 1px; 
+    margin: auto;
+}
+h1{
+    color: #fff;
+    font-size: 90px;
+    font-weight: 100;
+    padding: 15px;
+    
+}
+.layer{
+    background-color: rgba(0,0,0,0.35);
+    height: 100%;
+}
+/*about*/
+.container{
+    background-color: gray;
+}
+.about1{
+    background-color:   lightgrey;
+    width: 50%;
+    text-align: center;
+    padding:50px;
+    padding-top: 150;
+    
+    padding-bottom:     150;
+    
+
+    
+    box-sizing: border-box;
+    float: left;
+}
+.bc-white{
+    background-color:  #fff;
+    width: 95%;
+    margin: auto;
+}
+.bc-white img{
+    width: 100%;
+}
+.bc-white  h3{
+    color:gainsboro;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 100;
+}
+.bc-white h2{
+    font-size: 25px;
+}
+.bc-white p{
+    padding: 20px;
+}
+.bc-white  button{
+    padding: 15px;
+    border: solid 2px gray;
+    margin: 30px;
+}
+.bc-white:hover button{
+    background-color: gray;
+    cursor: pointer;
+}
+/*max*/
+.back{
+    background-image: url(imges/bg.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    text-align: center;
+    height: 300px;
+}
+.back p{
+        padding: 15px;
+
+    padding-top:100px;
+}
+.back  h3{
+    padding: 15px;
+    padding-bottom: 100px;
+    
+    color: #fff;
+    font-size: 45px;
+}
+
+.layer2{
+    background-color:   rgba(0,0,0,0.7);
+  }
+.container2{
+    background-color:  lightgrey;
+     padding:100px;
+
+}
+.caption2{
+    text-align: center;
+
+}
+.caption2 p{
+    padding: 15px;
+
+    padding-top:70px
+}
+.caption2 h3{
+     padding: 15px;
+    padding-bottom: 30px;
+    
+    color: #fff;
+    font-size: 45px;
+}
+.imges{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 30px;
+    background-color: lightgray;
+    float: left;
+  }
+.imges img {
+    width: 100%;
+
+}
+.bd{
+    box-sizing: border-box;
+    background-color: gray;
+    border: solid  10px #fff;
+    width: 100%;
+
+}
+@media screen and (max-width:700px){
+    .about1{
+     width: 100%;
+    }
+}
+@media screen and (max-width:900px){
+    .imges{
+ width: 100%;
+    }
+ 
+
+ 

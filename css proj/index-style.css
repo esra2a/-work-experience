@@ -1,0 +1,318 @@
+
+
+.clr {
+    clear: both;
+}
+
+
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+
+.home{
+    background-image: url(img/slider/slider-01.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 800px;
+    color: #fff;
+    position: relative;
+}
+.home .container{
+    width: 40%;
+  position: absolute;
+    left: 33%;
+    top: 40%;
+    text-align: center;
+  
+ }.home .container h1{
+    color: #ff305b;
+    font-size: 60px;
+    font-weight: bold;
+    padding: 10px;
+}.home .container p {
+    font-size: 25px;
+    font-weight: 100;
+    position: relative;
+}
+
+.home .opacity{
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 100%;
+}
+.nav{
+    overflow: auto;
+    transition: all 1s;
+    
+    
+}
+.nav ul li a{
+    color: #fff;
+}
+.fokir{
+    text-decoration: none;
+     font-size: 25px;
+    color:#ff305b ;
+    margin-left: 25px;
+    margin-top: 20px;
+    font-weight: 700
+        ;
+    
+}
+
+.nav ul  li {
+    font-size: 20px;
+    display: inline-block;
+    float: right;
+    padding : 20px 0px;
+ margin-right: 30px;
+    
+}
+ 
+
+
+
+
+.nav ul  li a{
+    text-decoration: none;
+ float: right;
+ }
+.nav a:hover  {
+    color: #ff305b ;
+}
+.home .container.des{
+    animation-name: des;
+    animation-duration: 2s;
+    
+}
+@keyframes des {
+    from{designer |};
+    to{developer |};
+}
+.parent{
+     height: 800px;
+    padding: 70px 0px 72px 0px ;
+    box-sizing: border-box;
+ }
+.parent .child1 {
+    width: 30%;
+     border: solid 7px #555555;
+    border-radius: 2%;
+    margin-left: 150px;
+    float: left;
+    position: relative;
+ 
+}
+.link{
+    background-color:  rgba(0, 0, 0, 0.57);
+ position:  absolute;
+    left: 15px;
+     top: 15px;
+    height:100%;
+    width: 100%;
+    overflow: hidden;
+
+    padding: 200px 150px;
+    box-sizing: border-box;
+    opacity: 0;
+    transition:all 1s;
+    border-radius: 5px;
+     
+ }
+.link:hover{
+    opacity: 1;
+}
+.link a{
+    color:  red;
+}
+
+.parent img{
+    width: 100%;
+    border-radius: 2%;
+    position: relative;
+    left: 15px;
+    top: 15px;
+     
+     
+    
+ 
+}
+.parent .child2{
+    width: 42%;
+    float: left;
+margin-left:100px;
+  } .child2 h2{
+    padding: 25px;
+    position: relative;
+}
+.child2 p{
+    color: gray;
+    float: left;
+    padding: 30px;
+    border-bottom: dashed 2px gray;
+}
+h2:brfore{
+    content: "web";
+    background-color:   black;
+    
+    width: 2px;
+    height: 10px;
+    
+}
+.child2 h3{
+    padding: 22px;
+    
+    float:left;
+    margin: 22x;
+     
+}
+
+button{
+    padding: 10px 15px;
+    background-color: #ff305b;
+    border: none;
+    border-radius: 2%;
+    color: #fff;
+    font-size: 18px;
+    transition-duration: 1s;
+}
+
+button:hover{
+    background-color: red;
+}
+
+.our-service{
+    background-color: gainsboro;
+    
+}
+.our-service h2{
+     text-align: center;
+    font-size: 50px;
+    padding: 150px 0px;
+    position: relative
+}
+.our-service h2:after{
+    content: " ";
+    background-color:  red;
+    width: 150px;
+    height: 2px;
+    position: absolute;
+    left: 45%;
+    top: 60%;
+ }  
+
+.our-service h2:before{
+    content: " ";
+    background-color:  red;
+    width: 150px;
+    height: 2px;
+    position: absolute;
+    right: 45%;
+    top: 60%;
+ }  
+
+.service1{
+     background-color: gainsboro;
+     width: 25%;
+    text-align: center;
+    box-sizing: border-box;
+    transition: all 1s;
+    float: left;
+}
+.service1 h3{
+    padding: 20px;
+    font-size: 20px;
+}
+.service1 p{
+ padding: 20px 20px 50px 20px;
+}
+.service1:hover{
+    background-color: #fff;
+}
+
+.our-portfolio{
+     text-align: center;
+     padding: 100px;
+    padding-top: 100px;
+ }
+.our-portfolio h2{
+     font-size: 50px;
+    position: relative;
+ }
+.our-portfolio h2:after{
+    content: " ";
+    background-color: red;
+    width: 100px;
+    height: 2px;
+    position: absolute;
+
+    left: 45%;
+    top: 100%;
+}.our-portfolio h2: before{
+    content: " web";
+    background-color: red;
+    width: 100px;
+    height: 2px;
+    position: absolute;
+
+    right:  t: 45%;
+    top: 100%;
+}
+.btn{
+    background-color: transparent;
+    color: black;
+    border: none;
+ }
+.btn:hover{
+    background-color: transparent;
+    color:crimson; 
+    margin: auto;
+    text-align: center;
+}
+
+img{
+    width: 32.3333%;
+    float: left;
+ margin: 5px;
+}
+
+img:hover{
+    color: red;
+     } 
+
+
+.constant{
+    box-sizing: border-box;
+      
+}
+.one
+{
+    background-color: darkgray;
+    height: 100px;
+     width: 25%;
+    padding: 100px 0px;
+    margin: 100px 0px;
+    text-align: center;
+    float: left;
+}.one h2{font-size: 35px;
+}
+.one p{
+    color: darkslategray;
+    padding: 20px;
+    
+} 
+
+ 
+ 
+
+
+

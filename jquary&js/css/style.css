@@ -1,0 +1,165 @@
+*
+{
+    transition: all 0.5s ease-in-out;
+}
+
+
+
+body
+{
+  font-family: 'Roboto Slab',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+
+}
+.main{
+	background-image: url(../img/header-bg.jpg);
+	height:100vh;
+	background-size: cover;
+	background-position: center center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.joe h3{
+	font-style: italic;
+	font-size: 2.6rem;
+}
+.joe h2{
+	font-size: 3.5rem;
+}
+*::selection {
+    background-color: #fed136;
+}
+.navbar-brand {
+	font-family: 'Kaushan Script',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+	color: #fed136 !important;
+}
+.nav-link{
+	color:white !important ;
+}
+.nav-link:hover{
+	color: #fed136 !important;
+}
+.custom-toggler{
+	background-color: #fed136;
+}
+.item{
+	position: relative;
+	overflow:hidden;
+	transition: all 1s ease-in-out;	
+}
+.item img{
+	width: 100%;
+}
+.caption2{
+	width: 90%;
+	position: absolute;
+	top:65%;
+	left: 5%;
+	transition: all 1s ease-in-out;
+
+}
+.item:hover .caption2{
+	top:120%;
+}
+.caption1{
+	background-color: rgba(0, 33, 71, 0.7) !important;
+	width: 90%;
+	height: 90%;
+	position: absolute;
+	bottom:100%;
+	left: 5%;
+	transition: all 1s ease-in-out;
+}
+.item:hover .caption1{
+	bottom:5%;
+	left: 5%
+}
+.Categories{
+	background-color: #fbfbfb;
+}
+.info{
+	font-weight: 600;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    padding: 20px;
+}
+.card-1 ,.card-2,.card-3,.card-4,.card-5,.card-6,.card-7,.card-8
+{
+    
+    height: 178px;
+    background-size: cover;
+    border: none;
+    transition:all 1s;
+} 
+.card-1{background-image: url(../img/category/1.jpg);}
+.card-2{ background-image: url(../img/category/2.jpg);}
+.card-3{background-image: url(../img/category/3.jpg);}
+.card-4{background-image: url(../img/category/4.jpg);}
+.card-5{background-image: url(../img/category/5.jpg);}
+.card-6{background-image: url(../img/category/6.jpg);}
+.card-7{background-image: url(../img/category/7.jpg);}
+.card-8{background-image: url(../img/category/8.jpg);}
+.card-width
+{
+    width: 100%;
+    height: 100%;
+}
+
+.card-1 .car-overlay {background-color: #337ab7;}
+.card-1 .car-overlay:hover{background-color:rgba(51, 122, 180, 0.5);}
+
+.card-2 .car-overlay {background-color: #1ec1d9;}
+.card-2 .car-overlay:hover{background-color:rgba(30, 193, 217, 0.5)}
+
+.card-3 .car-overlay {background-color: #10c45c ;}
+.card-3 .car-overlay:hover{background-color:rgba(16, 196, 92, 0.5)}
+
+.card-4 .car-overlay {background-color: #47c58e ;}
+.card-4 .car-overlay:hover{background-color:rgba(71, 197, 142, 0.5)}
+
+.card-5 .car-overlay {background-color: #f9bd44;}
+.card-5 .car-overlay:hover{background-color:rgba(249, 189, 68, 0.5)}
+
+.card-6 .car-overlay {background-color: #e948ae ;}
+.card-6 .car-overlay:hover{background-color:rgba(233, 72, 174, 0.5)}
+
+.card-7 .car-overlay {background-color: #e84b3a ;}
+.card-7 .car-overlay:hover{background-color:rgba(232, 75, 58, 0.5)}
+
+.card-8 .car-overlay {background-color: #92278f ;}
+.card-8 .car-overlay:hover{background-color:rgba(146, 39, 143, 0.5)}
+.card .car-overlay {  transition:all 1s;}
+
+
+
+
+
+}
+.tesstt:after{
+	content: "By Youssef Joe";
+    animation-name: MrJoe;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    color: #ffc107;	
+
+}
+
+
+
+
+@keyframes MrJoe{
+	0%{content: "programmer MrJoe";}
+	10%{content: "programmer MrJo|";}
+	16%{content: "programmer Mr|";}
+	24%{content: "programmer M|";}
+	32%{content: "programmer|";}
+	40%{content: "programme|";}
+	48%{content: "programm|";}
+	56%{content: "program|";}
+	64%{content: "progra|";}
+	70%{content: "progr|";}
+	78%{content: "prog|";}
+	86%{content: "pro|";}
+	94%{content: "pr|";}
+	100%{content: "p|";}
+}

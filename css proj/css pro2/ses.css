@@ -1,0 +1,131 @@
+/*h2{
+     text-align: center;
+    position: relative;
+}
+h2:after{
+    content: "";
+    background-color: red;
+    
+    position: absolute;
+    right: 0;
+    top: 50%;
+    
+    
+
+    
+    width: 40%;
+    height: 2px;
+ }
+h2:before{
+    content: "";
+    background-color: red;
+    
+    position: absolute;
+    left: 0;
+    top: 50%;
+    
+     width: 40%;
+    height: 2px;
+
+     
+ }
+h3{
+    width: 15%;
+    background-color: green;
+    text-align: center;
+}*/
+
+
+
+*{
+    
+    
+    margin: 0;
+    padding: 0px;
+}
+body{
+    background-color: gray;
+    font-family: ' segoe ui light';
+    
+    
+}
+.member{
+    background-color: gray;
+    width: 25%;
+    position: relative;
+    overflow: hidden;
+}
+.member img{
+    width: 100%;
+    transition: all 2s;
+    transition-delay: 1s;
+}
+.member :hover img{
+    transform: scale(1.4,1.2);
+}
+.member .caption {
+    background-color:  rgba(0,0,0,0.6);
+    
+    position: absolute;
+    top: 0px;
+    left: 0%;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    transition: all 1s;
+    opacity: 0;
+    
+     
+}
+.member:hover .caption{
+     opacity: 1;
+    transform: rotate(360deg)
+}
+.caption h2{
+    background-color: #09c;
+    padding: 10px;
+    
+    left: 120%;
+   
+    
+
+}
+.caption p{
+     font-size: 18px;
+    padding: 20px;
+    left: 120%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
